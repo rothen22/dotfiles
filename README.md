@@ -2,13 +2,15 @@
 
 > OS : [ArchLabs](https://archlabslinux.com/)
 >
-> WM : [i3wm](https://i3wm.org/) or [github](https://github.com/i3/i3)
+> Shell: [Zsh](https://www.zsh.org/) or [Github mirror](https://github.com/zsh-users/zsh)
+>
+> WM : [i3wm](https://i3wm.org/) or [Github](https://github.com/i3/i3)
 >
 > Bar : [i3status](https://github.com/i3/i3status)
 >
-> Term : [kitty](https://github.com/kovidgoyal/kitty)
+> Term : [Kitty](https://github.com/kovidgoyal/kitty)
 >
-> Editor : [micro](https://github.com/zyedidia/micro)
+> Editor : [Micro](https://github.com/zyedidia/micro) & [Helix](https://github.com/helix-editor/helix)
 >
 > File Manager: [xplr](https://github.com/sayanarijit/xplr) & [PCManFM](https://wiki.archlinux.org/title/PCManFM)
 
