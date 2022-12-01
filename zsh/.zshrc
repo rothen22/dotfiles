@@ -19,22 +19,17 @@ SAVEHIST=10000
 HISTSIZE=10000
 HISTFILE="$HOME/.cache/.zsh_history"
 
+# Aliases
 alias la='ls -Ah'
 alias ll='ls -lAh'
 alias grep='grep --color=auto'
 alias grub-update='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias mirror-update='sudo reflector --verbose --score 100 -l 50 -f 10 --sort rate --save /etc/pacman.d/mirrorlist'
-alias gitui'gitui -t mocha.ron'
-
-ls() # ls with preferred arguments
-{
-	command ls --color=auto -F1 "$@"
-}
-
-cd() # cd and ls after
-{
-	builtin cd "$@" && command ls --color=auto -F
-}
+alias ls='lsd'
+alias cat='bat'
+alias fzf="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
+alias dots='~/Dotfiles'
+alias h='helix'
 
 src() # recompile completion and reload zsh
 {
@@ -202,6 +197,7 @@ compinit -u -d "$compfile"
 # syntax highlighting
 source ~/.config/zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
+source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # starship prompt
 eval "$(starship init zsh)"
+export GPG_TTY=$(tty)
