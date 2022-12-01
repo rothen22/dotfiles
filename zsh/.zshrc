@@ -19,6 +19,9 @@ SAVEHIST=10000
 HISTSIZE=10000
 HISTFILE="$HOME/.cache/.zsh_history"
 
+# GPG for Git
+export GPG_TTY=$(tty)
+
 # Aliases
 alias la='ls -Ah'
 alias ll='ls -lAh'
@@ -30,6 +33,8 @@ alias cat='bat'
 alias fzf="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
 alias dots='~/Dotfiles'
 alias h='helix'
+alias gc=̈́'git commit -S -m "Update"'
+
 
 src() # recompile completion and reload zsh
 {
@@ -198,6 +203,6 @@ compinit -u -d "$compfile"
 source ~/.config/zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # starship prompt
 eval "$(starship init zsh)"
-export GPG_TTY=$(tty)
