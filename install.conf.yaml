@@ -13,6 +13,6 @@
     ~/.config/xplr: xplr
     ~/.config/starship.toml: starship.toml
     ~/.config/zsh: zsh
-    ~/.zshrc: zshrc
+    ~/.zshrc: .zshrc
 
 - shell:

@@ -11,6 +11,8 @@
 [submodule "dotbot-pacman"]
 	path = dotbot-pacman
 	url = https://github.com/omegarogue/dotbot-pacman
+	ignore = dirty
 [submodule "dotbot-paru"]
 	path = dotbot-paru
 	url = https://github.com/michaelray27/dotbot-paru.git
+	ignore = dirty

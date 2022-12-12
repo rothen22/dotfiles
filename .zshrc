@@ -33,8 +33,8 @@ alias cat='bat'
 alias fzf="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
 alias dots='~/Dotfiles'
 alias h='helix'
-alias gc=̈́'git commit -S -m "Update"'
-
+alias gc=̈́'git commit -S -m'
+alias gs='git status'
 
 src() # recompile completion and reload zsh
 {
