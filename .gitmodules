@@ -5,3 +5,12 @@
 [submodule "zsh/zsh-syntax-highlighting"]
 	path = zsh/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule "zsh/zsh-autosuggestions"]
+	path = zsh/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "dotbot-pacman"]
+	path = dotbot-pacman
+	url = https://github.com/omegarogue/dotbot-pacman
+[submodule "dotbot-paru"]
+	path = dotbot-paru
+	url = https://github.com/michaelray27/dotbot-paru.git
