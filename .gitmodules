@@ -12,3 +12,7 @@
 	path = dotbot-paru
 	url = https://github.com/michaelray27/dotbot-paru.git
 	ignore = dirty
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+	ignore = dirty
