@@ -13,6 +13,8 @@
 > Editor : [Micro](https://github.com/zyedidia/micro) & [Helix](https://github.com/helix-editor/helix)
 >
 > File Manager: [xplr](https://github.com/sayanarijit/xplr) & [PCManFM](https://wiki.archlinux.org/title/PCManFM)
+>
+> Bootstrapper: [Dotbot](https://github.com/anishathalye/dotbot) with plugins for pacman & paru.
 
 #### Screenshot is coming later...
 
