@@ -3,3 +3,6 @@ name = "rust"
 
 [language.config]
 checkOnSave = { command = "clippy" }
+
+[[language]]
+name = "yaml"

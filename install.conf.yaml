@@ -1,0 +1,19 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/i3: config/i3
+    ~/.config/i3status: config/i3status
+    ~/.config/kitty: config/kitty
+    ~/.config/helix: config/helix
+    ~/.config/micro: config/micro
+    ~/.config/xplr: config/xplr
+    ~/.config/starship.toml: config/starship
+    ~/.zshrc: zshrc
+    ~/README.md: README
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
