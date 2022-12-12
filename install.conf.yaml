@@ -5,15 +5,15 @@
 - clean: ['~']
 
 - link:
-    ~/.config/i3: config/i3
-    ~/.config/i3status: config/i3status
-    ~/.config/kitty: config/kitty
-    ~/.config/helix: config/helix
-    ~/.config/micro: config/micro
-    ~/.config/xplr: config/xplr
-    ~/.config/starship.toml: config/starship
+    ~/.config/i3: i3
+    ~/.config/i3status: i3status
+    ~/.config/kitty: kitty
+    ~/.config/helix: helix
+    ~/.config/micro: micro
+    ~/.config/xplr: xplr
+    ~/.config/starship.toml: starship
+    ~/.config/zsh: zsh
     ~/.zshrc: zshrc
-    ~/README.md: README
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
