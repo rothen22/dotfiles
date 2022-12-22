@@ -23,18 +23,23 @@ HISTFILE="$HOME/.cache/.zsh_history"
 export GPG_TTY=$(tty)
 
 # Aliases
-alias la='ls -Ah'
-alias ll='ls -lAh'
+alias ls='lsd'
+alias la='lsd -Ah'
+alias ll='lsd -lAh'
 alias grep='grep --color=auto'
 alias grub-update='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias mirror-update='sudo reflector --verbose --score 100 -l 50 -f 10 --sort rate --save /etc/pacman.d/mirrorlist'
-alias ls='lsd'
 alias cat='bat'
 alias fzf="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
 alias dots='~/Dotfiles'
 alias h='helix'
-alias gc=̈́'git commit -S -m'
+
+# Git aliases
+alias ga='git add'
+alias gc='git commit -S -m "Update"'
 alias gs='git status'
+alias gp='git push'
+alias gP='git pull'
 
 src() # recompile completion and reload zsh
 {
