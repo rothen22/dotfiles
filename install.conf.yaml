@@ -12,7 +12,6 @@
     ~/.config/micro: micro
     ~/.config/xplr: xplr
     ~/.config/starship.toml: starship.toml
-    ~/.config/nvim: nvim
     ~/.config/wezterm: wezterm
     ~/.config/zsh: zsh
     ~/.zshrc: .zshrc
