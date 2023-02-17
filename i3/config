@@ -1,11 +1,7 @@
 # ArchLabs i3 config
 
 # border & title
-for_window [class="^.*"] border pixel 1, title_format "<b> %class >> %title </b>"
-
-# gaps
-gaps inner 2
-gaps outer 0
+for_window [class="^.*"] border pixel 0, title_format "<b> %class >> %title </b>"
 
 # font
 font pango:monospace 11
@@ -59,7 +55,7 @@ bindsym Mod1+q kill
 bindsym Mod1+F4 kill
 
 # core
-bindsym $Mod+Return        exec --no-startup-id kitty
+bindsym $Mod+Return        exec --no-startup-id wezterm
 
 # logout script
 bindsym $Mod+x exec --no-startup-id rofi_run -l
@@ -179,19 +175,7 @@ hide_edge_borders both
 bindsym $Mod+shift+b border toggle
 
 # changing border style
-bindsym $Mod+n border normal
-bindsym $Mod+y border 1pixel
 bindsym $Mod+u border none
-
-# change gaps
-bindsym $Mod+plus                gaps inner current plus  5
-bindsym $Mod+minus               gaps inner current minus 5
-bindsym $Mod+Shift+plus          gaps outer current plus  5
-bindsym $Mod+Shift+minus         gaps outer current minus 5
-bindsym $Mod+Control+plus        gaps inner all     plus  5
-bindsym $Mod+Control+minus       gaps inner all     minus 5
-bindsym $Mod+Control+Shift+plus  gaps outer all     plus  5
-bindsym $Mod+Control+Shift+minus gaps outer all     minus 5
 
 ############    application settings   ############
 
